@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Datos PVPC</title>
+  <meta name="description" content="Datos abiertos del PVPC (precio de la electricidad en España) en formato JSON.">
+  <style>
+    :root { color-scheme: light dark; --fondo: #fff; --texto: #1d1d1f; --tenue: #5f6368; }
+    @media (prefers-color-scheme: dark) { :root { --fondo: #121212; --texto: #e8e8e8; --tenue: #a0a0a0; } }
+    body { margin: 0; padding: 2rem 1rem; background: var(--fondo); color: var(--texto);
+           font: 16px/1.5 system-ui, sans-serif; }
+    main { max-width: 40rem; margin: 0 auto; }
+    p { color: var(--tenue); }
+    code { font-size: .95em; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Datos PVPC</h1>
+    <p>Precios del PVPC (Precio Voluntario para el Pequeño Consumidor) publicados en JSON
+      para la aplicación <a href="https://pvpc.linaresdigital.com">pvpc.linaresdigital.com</a>.</p>
+    <p>Índice: <code>/v1/indice.json</code> · Día: <code>/v1/AAAA/MM/AAAA-MM-DD.json</code></p>
+    <p>Fuente: Red Eléctrica de España (e·sios).</p>
+  </main>
+</body>
+</html>
